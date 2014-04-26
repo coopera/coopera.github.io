@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
 
-        <!-- build:css({app,.tmp}) /css/main.css -->
-        <!-- Syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-        <!-- endbuild -->
+  <!-- Google Webfonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
 
-    </head>
-    <body>
+  <!-- Font Awesome Icons -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+  <!-- build:css({app,.tmp}) /css/main.css -->
+  <!-- Syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
 
-          {{ content }}
+  <!-- Twitter Bootstrap -->
+  <link rel="stylesheet" href="/_bower_components/bootstrap/dist/css/bootstrap.css">
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Coopera<br />
-                <a href="mailto:bernardogfilho@gmail.com">bernardogfilho@gmail.com</a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+  <!-- endbuild -->
 
-    <!-- build:js(app) /js/scripts.js -->
-    <script src="/js/main.js"></script>
-    <!-- endbuild -->
-    </body>
+</head>
+
+<body>
+
+  {% include masterhead.html %}
+
+  <div class="site">
+    <div class="header">
+      <h1 class="title"><a href="/">{{ site.name }}</a>
+      </h1>
+      <a class="extra" href="/">home</a>
+    </div>
+
+    {{ content }}
+
+    <div class="footer">
+      <div class="contact">
+        <p>
+          Coopera
+          <br />
+          <a href="mailto:bernardogfilho@gmail.com">bernardogfilho@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact">
+        <p>
+          <a href="https://github.com/yourusername">github.com/yourusername</a>
+          <br />
+          <a href="https://twitter.com/yourusername">twitter.com/yourusername</a>
+          <br />
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- build:js(app) /js/scripts.js -->
+  <script src="/js/main.js"></script>
+  <script src="/_bower_components/jquery/dist/jquery.js"></script>
+  <script src="/_bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <!-- endbuild -->
+</body>
+
 </html>
