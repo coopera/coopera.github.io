@@ -8,7 +8,14 @@ html {
 body {
   color: $font_color;
   font-family: 'Open Sans', sans-serif;
-  
+}
+
+a:hover {
+  text-decoration: none;
+  color: $primary_color;
+  &:hover {
+    color: darken($primary_color, 15%);
+  }
 }
 
 .container {
@@ -16,6 +23,8 @@ body {
 }
 
 .masterhead {
+  // background: $primary_color;
+  // color: #fff;
 }
 
 .masterhead-title {
@@ -56,5 +65,20 @@ a.navbar-brand {
   line-height: 50px;
   &:hover {
     background: transparent;
+  }
+}
+
+.posts-index {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+  .post {
+    
+  }
+
+  .post-meta {
+    font-style: italic;
+    opacity: 0.5;
   }
 }
