@@ -7,7 +7,6 @@ name: website
 description: Coopera:lab Website
 author:
   name: Coopera
-  email: bernardogfilho@gmail.com
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
