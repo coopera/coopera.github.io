@@ -6,8 +6,8 @@ title: Your New Jekyll Site
 <div class="container">
   <ul class="posts-index">
     {% for post in site.posts limit: 5 %}
-      <li>
-        <h2 class="post-title">{{ post.title }}</h2>
+      <li class="post">
+        <h3 class="post-title">{{ post.title }}</h3>
         <p class="post-subtitle">
           {{ post.summary }}
         </p>

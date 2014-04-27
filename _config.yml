@@ -24,3 +24,7 @@ markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
 pygments: true
+
+timezone: America/Fortaleza
+
+permalink: pretty
