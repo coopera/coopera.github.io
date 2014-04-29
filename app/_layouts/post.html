@@ -1,9 +1,19 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
+<header class="masterhead-content">
+  <div class="container">
+    <h1 class="masterhead-title">
+      {{ page.title }}
+    </h1>
+      <div class="post-meta">Posted in {{ page.date | date: "%dth %B, %Y" }}</div>
+    <p class="masterhead-subtitle">
+      {{ page.summary }}
+    </p>
+  </div>
+</header>
+
+<div class="container">
+  {{ content }}
 </div>

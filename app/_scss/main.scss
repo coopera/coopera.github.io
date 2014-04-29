@@ -1,6 +1,8 @@
+@import "bourbon/bourbon";
+
 // $font_color       : #77776b;
 $font_color       : #00303e;
-$primary_color    : #0ccec3;
+$primary_color    : #00a0c0;
 $secondary_color  : #00a0c0;
 $background_color : #ffffff;
 
@@ -29,22 +31,19 @@ a {
   max-width: 60rem;
 }
 
-.masterhead {
-  background: #fff;
-  // background: $primary_color;
-  // color: #fff;
-}
-
-.masterhead-title {
-
-}
+.masterhead-title {}
 
 .masterhead-subtitle {
-  opacity: 0.8;
+  color: tint($font_color, 50%);
 }
 
 .masterhead-content {
   padding: 4rem 0;
+}
+
+.footer {
+  margin: 4rem 0;
+  color: tint($font_color, 60%);
 }
 
 h1,h2,h3,h4 {
@@ -77,10 +76,8 @@ a.navbar-brand {
   padding-bottom: 0.5rem;
   display: inline;
   line-height: 50px;
-  opacity: 0.6;
   border-bottom: 1px solid transparent;
   &:hover {
-    opacity: 1;
     color: $primary_color;
     border-color: $primary_color;
     background: transparent;
@@ -99,7 +96,8 @@ a.navbar-brand {
 
   .post-meta {
     font-style: italic;
-    opacity: 0.5;
+    color: tint($font_color, 50%);
+    // opacity: 0.5;
     a {
       font-style: normal;
     }
