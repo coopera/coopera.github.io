@@ -15,13 +15,13 @@
 
   <!-- build:css({app,.tmp}) css/main.css -->
   <!-- Syntax highlighting CSS -->
-  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="./{{ site.baseurl }}/css/syntax.css">
 
   <!-- Twitter Bootstrap -->
-  <link rel="stylesheet" href="/_bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./{{ site.baseurl }}/_bower_components/bootstrap/dist/css/bootstrap.css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="./{{ sitebase.url }}/css/main.css">
   <!-- endbuild -->
 
 </head>
@@ -35,9 +35,9 @@
   {% include footer.html %}
 
   <!-- build:js(app) js/scripts.js -->
-  <script src="/js/main.js"></script>
-  <script src="/_bower_components/jquery/dist/jquery.js"></script>
-  <script src="/_bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="./{{ site.baseurl }}/js/main.js"></script>
+  <script src="./{{ site.baseurl }}/_bower_components/jquery/dist/jquery.js"></script>
+  <script src="./{{ site.baseurl }}/_bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <!-- endbuild -->
 </body>
 
