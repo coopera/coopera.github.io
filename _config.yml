@@ -27,3 +27,5 @@ pygments: true
 timezone: America/Fortaleza
 
 permalink: pretty
+
+baseurl: /coopera-site
