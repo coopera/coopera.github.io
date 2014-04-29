@@ -2,18 +2,15 @@
 layout: default
 ---
 
-<header class="masterhead-content">
-  <div class="container">
-    <h1 class="masterhead-title">
-      {{ page.title }}
-    </h1>
-      <div class="post-meta">Posted in {{ page.date | date: "%dth %B, %Y" }}</div>
-    <p class="masterhead-subtitle">
-      {{ page.summary }}
-    </p>
-  </div>
-</header>
-
 <div class="container">
-  {{ content }}
+  <div class="post">
+    <header class="post-header">
+      <h1>{{ page.title }}</h1>
+      <span class="post-meta">{{ page.date | date: "Posted in %dth %B, %Y"}}</span>
+      <div class="post-summary">
+        {{ page.summary }}
+      </div>
+    </header>
+    {{ content }}
+  </div>
 </div>

@@ -35,6 +35,7 @@ a {
 
 .masterhead-subtitle {
   color: tint($font_color, 50%);
+  font-size: 1.2rem;
 }
 
 .masterhead-content {
@@ -93,13 +94,26 @@ a.navbar-brand {
   .post {
     margin-bottom: 4rem;
   }
+}
 
-  .post-meta {
-    font-style: italic;
-    color: tint($font_color, 50%);
-    // opacity: 0.5;
-    a {
-      font-style: normal;
-    }
+.post-meta {
+  font-style: italic;
+  color: tint($font_color, 50%);
+  // opacity: 0.5;
+  a {
+    font-style: normal;
   }
+}
+
+.post {
+
+  .post-header {
+    padding: 4rem 0;
+  }
+
+  .post-summary {
+    font-size: 1.2rem;
+    margin-top: 4rem;
+  }
+
 }
