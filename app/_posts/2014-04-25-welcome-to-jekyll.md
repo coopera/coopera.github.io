@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2014-04-25 15:04:34
+author: Fernando Figueira Filho
 categories: jekyll update
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eveniet error aperiam maiores. Voluptas, eius, facere, illo corporis repellendus unde commodi reiciendis repellat illum a deleniti ratione sapiente molestias vel.
 ---

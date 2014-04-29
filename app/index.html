@@ -26,7 +26,7 @@ title: Your New Jekyll Site
           {{ post.summary }}
         </p>
         <span class="post-meta">
-          {{ post.date | date: "Posted in %dth %B %Y" }} | <a href="{{ post.url }}">Read More</a>
+          By {{ post.author }} – {{ post.date | date: "Posted in %dth %B %Y" }} | <a href="{{ post.url }}">Read More</a>
         </span>
       </li>
     {% endfor %}
