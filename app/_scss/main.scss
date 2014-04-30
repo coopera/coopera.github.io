@@ -118,3 +118,47 @@ a.navbar-brand {
   }
 
 }
+
+.team {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  @media (min-width: 992px) {
+    text-align: left;
+  }
+}
+
+.member {
+  margin-bottom: 2rem;
+}
+
+.member-photo {
+  display: inherit;
+  margin: auto;
+  border-radius: 50%;
+  max-width: 120px;
+  margin-top: 1rem;
+  border: 5px solid #fff;
+  box-shadow: 0 0 1px $font_color;
+  @media (min-width: 992px) {
+    display: block;
+    margin: 0;
+    margin-right: 1rem;
+  }
+}
+
+.member-position {
+  font-style: italic;
+  color: tint($font_color, 50%);
+  margin-bottom: 0.5rem;
+}
+
+.member-links {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline;
+    margin-right: 1.5rem;
+  }
+}
