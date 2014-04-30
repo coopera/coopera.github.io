@@ -161,4 +161,23 @@ a.navbar-brand {
     display: inline;
     margin-right: 1.5rem;
   }
+  a {
+    color: tint($primary_color, 50%);
+    &:hover {
+      color: $primary_color;
+    }
+  }
+}
+
+.projects {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.project {
+  margin-bottom: 4rem;
+  p {
+    color: tint($font_color, 50%);
+  }
 }
