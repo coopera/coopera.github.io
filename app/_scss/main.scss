@@ -163,6 +163,16 @@ a.navbar-brand {
   margin-bottom: 0.5rem;
 }
 
+.member-project {
+  color: tint($font_color, 50%);
+  small {
+    color: $font_color;
+    font-style: normal;
+  }
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
 .member-links {
   margin: 0;
   padding: 0;
