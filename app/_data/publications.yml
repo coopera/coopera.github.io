@@ -1,0 +1,13 @@
+# Example:
+
+- year: 2014
+  works:
+    - author, author, author. TITLE
+    - more authors, authors, etc. TITLE
+
+- year: 2013
+  works:
+    - author, author, author. TITLE
+    - more authors, authors, etc. TITLE
+    - author, author, author. TITLE
+    - more authors, authors, etc. TITLE
